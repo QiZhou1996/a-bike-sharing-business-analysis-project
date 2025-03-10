@@ -14,7 +14,7 @@ Step 3:
 Step 4:
 - A merge adds the changes in your pull request and branch into the main branch.
 
-Note: For details, please see https://github.com/skills/introduction-to-github/tree/main/.github/steps.
+(Note: For details, please see https://github.com/skills/introduction-to-github/tree/main/.github/steps.)
 
 Step 5:
 - Customizing profile, please see https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme.
