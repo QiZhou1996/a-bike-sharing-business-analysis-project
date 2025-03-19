@@ -16,7 +16,7 @@
 <p>The dataset [3] is chosen to answer the above questions, thus revealing how the bike-sharing service serves its users and to drive informed decision-making accordingly.</p>
 <p>In this project, Google Sheets is the tool used to store, clean, and analyze the data. The raw data, which totals 20,400 records, spans three months, starting on January 1, 2017, and ending on March 31 of the same year, as shown in Figure 1.</p>  
 
-![Figure 1: Raw Data](/figures/Raw Data.png)
+![Figure 1: Raw Data](/figures/Raw%20Data.png)
 *(Figure 1: Raw Data)* 
 
 ## Cleaning data:
