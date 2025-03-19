@@ -1,14 +1,14 @@
 # a-bike-sharing-business-analysis-project
 This project [1] demonstrates a fundamental data analysis process: asking questions, preparing datasets, cleaning data, analyzing and visualizing data, and sharing a compelling data story. The NY Citi bike-sharing program [2] aims to enhance its business strategy, thereby improving user experience.
 ## Asking questions:
-1. What are the most popular pick-up locations across the city for NY Citi Bike rental?
-2. How does the average trip duration vary across different age groups?
-3. Which age group rents the most bikes?
-4. How does bike rental vary across the two user groups (one-time users vs. long-term subscribers) on different days of the week?
-5. Does user age impact the average bike trip duration?
+1. What are the most popular pick-up locations across the city for NY Citi Bike rental?  
+2. How does the average trip duration vary across different age groups?  
+3. Which age group rents the most bikes?  
+4. How does bike rental vary across the two user groups (one-time users vs. long-term subscribers) on different days of the week?  
+5. Does user age impact the average bike trip duration?  
 ## Preparing datasets:
 The dataset [3] is chosen to answer the above questions, thus revealing how the bike-sharing service serves its users and to drive informed decision-making accordingly.
-In this project, Google Sheets is the tool used to store, clean, and analyze the data. The raw data, which totals 20,400 records, spans three months, starting on January 1, 2017, and ending on March 31 of the same year, as shown in Figure 1.
+In this project, Google Sheets is the tool used to store, clean, and analyze the data. The raw data, which totals 20,400 records, spans three months, starting on January 1, 2017, and ending on March 31 of the same year, as shown in Figure 1.  
 (Figure 1: Raw Data)
 ## Cleaning data:
 After obtaining the raw data, it is first backed up. Then, the backup data is cleaned, and the raw data remains intact to ensure traceability and reproducibility of subsequent cleanup operations. Regarding this data, the cleanup includes three steps - identifying and removing duplicates, trimming whitespaces, and handling missing data points as well as outliers. 
