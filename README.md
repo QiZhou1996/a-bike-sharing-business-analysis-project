@@ -10,11 +10,11 @@ This project [1] demonstrates a fundamental data analysis process: asking questi
 4. How does bike rental vary across the two user groups (one-time users vs. long-term subscribers) on different days of the week?  
 5. Does user age impact the average bike trip duration?  
 ## Preparing datasets:
-The dataset [3] is chosen to answer the above questions, thus revealing how the bike-sharing service serves its users and to drive informed decision-making accordingly.  
+The dataset [3] is chosen to answer the above questions, thus revealing how the bike-sharing service serves its users and to drive informed decision-making accordingly.    
 In this project, Google Sheets is the tool used to store, clean, and analyze the data. The raw data, which totals 20,400 records, spans three months, starting on January 1, 2017, and ending on March 31 of the same year, as shown in Figure 1.  
 (Figure 1: Raw Data)
 ## Cleaning data:
-After obtaining the raw data, it is first backed up. Then, the backup data is cleaned, and the raw data remains intact to ensure traceability and reproducibility of subsequent cleanup operations. Regarding this data, the cleanup includes three steps - identifying and removing duplicates, trimming whitespaces, and handling missing data points as well as outliers.  
+After obtaining the raw data, it is first backed up. Then, the backup data is cleaned, and the raw data remains intact to ensure traceability and reproducibility of subsequent cleanup operations. Regarding this data, the cleanup includes three steps - identifying and removing duplicates, trimming whitespaces, and handling missing data points as well as outliers.    
 Compared with the raw data, the cleaned data totals 16,843 records, as shown in Figure 2. Besides, the attributes are highlighted with a light green background and bold font so as to help understand the table quickly and easily.  
 (Figure 2: Cleanup on Backup Data)
 ## Analyzing & Visualizing data:
