@@ -15,18 +15,18 @@
 ## Preparing datasets:
 <p>The dataset [3] is chosen to answer the above questions, thus revealing how the bike-sharing service serves its users and to drive informed decision-making accordingly.</p>
 <p>In this project, Google Sheets is the tool used to store, clean, and analyze the data. The raw data, which totals 20,400 records, spans three months, starting on January 1, 2017, and ending on March 31 of the same year, as shown in Figure 1.</p>  
-<p>(Figure 1: Raw Data)</p>  
+<p>*Figure 1: Raw Data*</p>  
 
 ## Cleaning data:
 <p>After obtaining the raw data, it is first backed up. Then, the backup data is cleaned, and the raw data remains intact to ensure traceability and reproducibility of subsequent cleanup operations. Regarding this data, the cleanup includes three steps - identifying and removing duplicates, trimming whitespaces, and handling missing data points as well as outliers.</p>    
 <p>Compared with the raw data, the cleaned data totals 16,843 records, as shown in Figure 2. Besides, the attributes are highlighted with a light green background and bold font so as to help understand the table quickly and easily.</p>    
-<p>(Figure 2: Cleanup on Backup Data)</p>  
+<p>/Figure 2: Cleanup on Backup Data/</p>  
 
 ## Analyzing & Visualizing data:
 <p>To answer the first question, a pivot table is created to summarize the use frequency of each starting station. After sorting in descending order, Grove St PATH station is the most popular starting station among the 50 stations, with 2,115 out of 16,843 data records (note that the average is 337). Moreover, as the bar chart in Figure 3 suggests, Exchange Place, Sip Ave, and Hamilton Park stations are quite highly used. Thus, a possible business strategy is supplying these stations with sufficient bikes promptly to meet the large demand.</p>  
-<p>(Figure 3: Q1 - Top 15 Pickup Locations)</p>  
+<p>/ Figure 3: Q1 - Top 15 Pickup Locations/ </p>  
 <p>For the second question, a pivot table summarizes the average trip duration for seven age groups (18-24, 25-34, 35-44, 45-54, 55-64, 65-74 and 75+). As the column chart in Figure 4 suggests, most users aged 18 to 74 spend an average of 9 minutes on a short ride, while users over 75 spend an average of 50 minutes on long trips. Thus, the business strategy would focus on the ten-minute ride.</p>    
-<p>(Figure 4: Q2 - Trip Duration vs. Age Groups)</p>  
+<p>/ Figure 4: Q2 - Trip Duration vs. Age Groups /</p>  
 <p>For the third question, a pivot table summarizes the number of bike rentals for the seven age groups. As the pie chart in Figure 5 suggests, the 35-44 age group is the largest user group, with 7,697 of 16,843 rentals, accounting for nearly half of the total. In addition, the 25-34 and 45-54 age groups account for another 41.5% of rentals, so they are also vitally important user groups. Thus, the business strategy would mainly target users aged 25 to 54.</p>    
 <p>(Figure 5: Q3 - Bike Rental vs. Age Groups)</p>  
 <p>For the fourth question, a pivot table summarizes the number of bike rentals per weekday by one-time users and subscribers. As the stacked stepped area chart in Figure 6 suggests, most users are subscribers who primarily use the service during the workday, with 13,528 of 16,843 rentals. On the other hand, one-time users tend to rent bikes for the weekend. Thus, the business strategy would greatly retain subscribers and try to attract one-time users on the weekends.</p>    
