@@ -1,5 +1,5 @@
 # a-bike-sharing-business-analysis-project
-<font color=blue>by Qi Zhou / qiqizhou1996@gmail.com</font>  
+<font color="#ADD8E6">by Qi Zhou / qiqizhou1996@gmail.com</font>  
 date: March 18, 2025  
 This project [1] demonstrates a fundamental data analysis process: asking questions, preparing datasets, cleaning data, analyzing and visualizing data, and sharing a compelling data story. The NY Citi bike-sharing program [2] aims to enhance its business strategy, thereby improving user experience.  
 ## Asking questions:
