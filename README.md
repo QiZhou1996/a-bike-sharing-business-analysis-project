@@ -1,8 +1,10 @@
 # a-bike-sharing-business-analysis-project
 *by Qi Zhou / qiqizhou1996@gmail.com*  
 *date: March 18, 2025*  
+
 ## Introduction:
 <p>This project [1] demonstrates a fundamental data analysis process: asking questions, preparing datasets, cleaning data, analyzing and visualizing data, and sharing a compelling data story. The NY Citi bike-sharing program [2] aims to enhance its business strategy, thereby improving user experience.</p>  
+
 ## Asking questions:
 1. What are the most popular pick-up locations across the city for NY Citi Bike rental?  
 2. How does the average trip duration vary across different age groups?  
@@ -13,10 +15,12 @@
 <p>The dataset [3] is chosen to answer the above questions, thus revealing how the bike-sharing service serves its users and to drive informed decision-making accordingly.</p>
 <p>In this project, Google Sheets is the tool used to store, clean, and analyze the data. The raw data, which totals 20,400 records, spans three months, starting on January 1, 2017, and ending on March 31 of the same year, as shown in Figure 1.</p>  
 (Figure 1: Raw Data)
+
 ## Cleaning data:
 After obtaining the raw data, it is first backed up. Then, the backup data is cleaned, and the raw data remains intact to ensure traceability and reproducibility of subsequent cleanup operations. Regarding this data, the cleanup includes three steps - identifying and removing duplicates, trimming whitespaces, and handling missing data points as well as outliers.  
 Compared with the raw data, the cleaned data totals 16,843 records, as shown in Figure 2. Besides, the attributes are highlighted with a light green background and bold font so as to help understand the table quickly and easily.  
 (Figure 2: Cleanup on Backup Data)
+
 ## Analyzing & Visualizing data:
 To answer the first question, a pivot table is created to summarize the use frequency of each starting station. After sorting in descending order, Grove St PATH station is the most popular starting station among the 50 stations, with 2,115 out of 16,843 data records (note that the average is 337). Moreover, as the bar chart in Figure 3 suggests, Exchange Place, Sip Ave, and Hamilton Park stations are quite highly used. Thus, a possible business strategy is supplying these stations with sufficient bikes promptly to meet the large demand.  
 (Figure 3: Q1 - Top 15 Pickup Locations)  
