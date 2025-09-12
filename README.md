@@ -2,7 +2,7 @@
 *by Qi Zhou / qiqizhou1996@gmail.com*  
 
 ## Project Summary:
-<p>This real-world project [1] demonstrates a fundamental and comprehensive business analysis: from asking targeted questions and performing exploratory data analysis (EDA) to delivering actionable insights and and crafting a compelling data story. The primary goal is to identify patterns in user behavior and rental trends, thereby helping the NY Citi bike-sharing program [2] enhance its business strategy and improve user experience.</p>  
+<p>This real-world project [1] demonstrates a fundamental and comprehensive business analysis: from asking targeted questions and performing exploratory data analysis (EDA) to delivering actionable insights and crafting a compelling data story. The primary goal is to identify patterns in user behavior and rental trends, thereby helping the NY Citi bike-sharing program [2] enhance its business strategy and improve user experience.</p>  
 
 ## Key questions:
 <p>The analysis is structured around answering the following five questions:</p>
