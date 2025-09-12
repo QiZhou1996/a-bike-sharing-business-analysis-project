@@ -26,31 +26,31 @@ In this project, Google Sheets is the tool used to store raw data, conduct EDA a
 *(Figure 2: Cleanup on Backup Data)*
 
 ## Key Findings & Visualizations:
-<p>1. Most Popular Pickup Locations</p> 
+#### 1. Most Popular Pickup Locations
 <p>To answer the first question, a pivot table is created to summarize the use frequency of each starting station. After sorting in descending order, Grove St PATH station is the most popular starting station among the 50 stations, with 2,115 out of 16,843 data records (note that the average is 337). Moreover, as the bar chart in Figure 3 suggests, Exchange Place, Sip Ave, and Hamilton Park stations are quite highly used. Thus, a possible business strategy is supplying these stations with sufficient bikes promptly to meet the large demand.</p>  
 
 ![Figure 3: Q1 - Top 15 Pickup Locations](/figures/Q1%20-%20Top%2015%20Pickup%20Locations.png)
 *(Figure 3: Q1 - Top 15 Pickup Locations)*
 
-<p>2. Trip Duration by Age Group</p> 
+#### 2. Trip Duration by Age Group
 <p>For the second question, a pivot table summarizes the average trip duration for seven age groups (18-24, 25-34, 35-44, 45-54, 55-64, 65-74 and 75+). As the column chart in Figure 4 suggests, most users aged 18 to 74 spend an average of 9 minutes on a short ride, while users over 75 spend an average of 50 minutes on long trips. Thus, the business strategy would focus on the ten-minute ride.</p>    
 
 ![Figure 4: Q2 - Trip Duration vs. Age Groups](/figures/Q2%20-%20Trip%20Duration%20vs.%20Age%20Groups.png)
 *(Figure 4: Q2 - Trip Duration vs. Age Groups)*
 
-<p>3. Most Active User Age Groups</p> 
+#### 3. Most Active User Age Groups
 <p>For the third question, a pivot table summarizes the number of bike rentals for the seven age groups. As the pie chart in Figure 5 suggests, the 35-44 age group is the largest user group, with 7,697 of 16,843 rentals, accounting for nearly half of the total. In addition, the 25-34 and 45-54 age groups account for another 41.5% of rentals, so they are also vitally important user groups. Thus, the business strategy would mainly target users aged 25 to 54.</p>    
 
 ![Figure 5: Q3 - Bike Rental vs. Age Groups](/figures/Q3%20-%20Bike%20Rental%20vs.%20Age%20Groups.png)
 *(Figure 5: Q3 - Bike Rental vs. Age Groups)*
 
-### 4. User Type & Usage Patterns
+#### 4. User Type & Usage Patterns
 <p>For the fourth question, a pivot table summarizes the number of bike rentals per weekday by one-time users and subscribers. As the stacked stepped area chart in Figure 6 suggests, most users are subscribers who primarily use the service during the workday, with 13,528 of 16,843 rentals. On the other hand, one-time users tend to rent bikes for the weekend. Thus, the business strategy would greatly retain subscribers and try to attract one-time users on the weekends.</p>    
 
 ![Figure 6: Q4 - User Type vs. Weekday](/figures/Q4%20-%20User%20Type%20vs.%20Weekday.png)
 *(Figure 6: Q4 - User Type vs. Weekday)*
 
-### 5. Age vs. Trip Duration
+#### 5. Age vs. Trip Duration
 <p>Regarding the last question, descriptive statistics, in which the average trip duration is 9 minutes (shown in Figure 7), are used to generate a general intuitive understanding of the whole 16,843 data records and help effectively eliminate outliers. As the scatter plot in Figure 7 suggests, the 16,843 pairs of data indicate no significant relationship between trip duration and user age. Thus, it seems that user age does not impact the average bike trip duration. For further questions, more data is needed to conduct a detailed analysis.</p>  
 
 ![Figure 7: Q5 - User Age vs. Trip Duration](/figures/Q5%20-%20User%20Age%20vs.%20Trip%20Duration.png)
