@@ -13,7 +13,7 @@
 <p>5. Does user age impact the average bike trip duration?    </p>
 
 ## Methodology:
-<p>The dataset [3] is chosen to answer the above questions, thus revealing how the bike-sharing service serves its users and to drive informed decision-making accordingly.
+<p>The dataset [3] is chosen to answer the above questions, thus revealing how the bike-sharing service serves its users and to drive informed decision-making accordingly. 
 In this project, Google Sheets is the tool used to store raw data, conduct EDA and create visualizations. The raw data, which totals 20,400 records, spans three months, starting on January 1, 2017, and ending on March 31 of the same year, as shown in Figure 1.</p>  
 
 ![Figure 1: Raw Data](/figures/Raw%20Data.png)
@@ -25,7 +25,7 @@ In this project, Google Sheets is the tool used to store raw data, conduct EDA a
 ![Figure 2: Cleanup on Backup Data](/figures/Cleanup%20on%20Backup%20Data.png)
 *(Figure 2: Cleanup on Backup Data)*
 
-## Key Findings & Visualizations:
+## Key Findings and Visualizations:
 ### 1. Most Popular Pickup Locations
 <p>To answer the first question, a pivot table is created to summarize the use frequency of each starting station. After sorting in descending order, Grove St PATH station is the most popular starting station among the 50 stations, with 2,115 out of 16,843 data records (note that the average is 337). Moreover, as the bar chart in Figure 3 suggests, Exchange Place, Sip Ave, and Hamilton Park stations are quite highly used. Thus, a possible business strategy is supplying these stations with sufficient bikes promptly to meet the large demand.</p>  
 
@@ -57,8 +57,20 @@ In this project, Google Sheets is the tool used to store raw data, conduct EDA a
 *(Figure 7: Q5 - User Age vs. Trip Duration)*
 
 ## Conclusion and Business Recommendations:
-<p>This project leverages descriptive analysis to understand how the NY Citi bike-sharing program operates, plus its customer behaviour, thus providing specific solutions for upgrading the business strategy.</p>  
-<p>The raw dataset contains 20,400 records, spanning three months from January 1 to March 31, 2017. After data cleaning, the dataset retains 16,843 records. According to the cleaned data, there are 50 starting stations, and the average number of services provided by the stations over these three months is 337. However, four stations - Grove St PATH, Exchange Place, Sip Ave, and Hamilton Park - each provide over 1,000 times of service. Therefore, these stations should be supplied with sufficient bikes promptly to meet this high demand. Additionally, more than 80% of customers are subscribers, primarily aged between 25 and 54, who are accustomed to renting bikes for ten-minute short rides during workdays. Thus, the business strategy should focus on retaining these customers through subscriber benefits and improved riding experiences.</p>  
+<p>This project leverages descriptive analysis to understand how the NY Citi bike-sharing program operates, plus its customer behaviour, thus providing specific solutions for upgrading the business strategy. 
+The raw dataset contains 20,400 records, spanning three months from January 1 to March 31, 2017. After data cleaning, the dataset retains 16,843 records. According to the cleaned data, there are 50 starting stations, and the average number of services provided by the stations over these three months is 337. However, four stations - Grove St PATH, Exchange Place, Sip Ave, and Hamilton Park - each provide over 1,000 times of service. Therefore, these stations should be supplied with sufficient bikes promptly to meet this high demand. Additionally, more than 80% of customers are subscribers, primarily aged between 25 and 54, who are accustomed to renting bikes for ten-minute short rides during workdays. Thus, the business strategy should focus on retaining these customers through subscriber benefits and improved riding experiences.</p>  
+<p>Ultimately, this analysis provides clear and data-driven insights:</p> 
+
+#### 1 - Optimize Station Supply
+: Ensure top-performing stations like Grove St PATH are consistently stocked with bikes to meet high demand.
+#### 2 - Target Core Demographics
+: Focus marketing efforts on the 25-54 age group, as they represent the largest and most active customer base.
+#### 3 - Enhance Subscriber Benefits
+: Since subscribers make up over 80% of users, focus on improving their workday riding experience and maintaining a high level of satisfaction.
+#### 4 - Boost Weekend Rentals
+: Develop promotions or special offerings specifically for weekends to attract and convert one-time users into regular customers.
+#### 5 - Focus on the "10-Minute Ride"
+: The majority of trips are short, so operational improvements and bike maintenance should prioritize efficiency and convenience for these quick rides.
 
 ## Acknowledgements:
 [1] Thanks to the CareerFoundry Data Analytics for Beginners Course. For details, please see careerfoundry.com  
