@@ -62,7 +62,7 @@ In this project, Google Sheets is the tool used to store raw data, conduct EDA a
 <p>Ultimately, this analysis provides clear and data-driven insights:</p> 
 
 #### 1 - Optimize Station Supply
-Ensuring top-performing stations like Grove St PATH are consistently stocked with bikes to meet high demand.
+It is critically important to ensure that top-performing stations like Grove St PATH are consistently stocked with bikes to meet high demand.
 #### 2 - Target Core Demographics
 Marketing efforts should target on the 25-54 age group, as they represent the largest and most active customer base.
 #### 3 - Enhance Subscriber Benefits
