@@ -6,11 +6,11 @@
 
 ## Key questions:
 <p>The analysis is structured around answering the following five questions:</p>
-1. What are the most popular pick-up locations across the city for NY Citi Bike rental?  
-2. How does the average trip duration vary across different age groups?  
-3. Which age group rents the most bikes?  
-4. How does bike rental vary across the two user groups (one-time users vs. long-term subscribers) on different days of the week?  
-5. Does user age impact the average bike trip duration?
+<p>1. What are the most popular pick-up locations across the city for NY Citi Bike rental?  </p>
+<p>2. How does the average trip duration vary across different age groups?  </p>
+<p>3. Which age group rents the most bikes?  </p>
+<p>4. How does bike rental vary across the two user groups (one-time users vs. long-term subscribers) on different days of the week?  </p>
+<p>5. Does user age impact the average bike trip duration?    </p>
 
 ## Methodology:
 <p>The dataset [3] is chosen to answer the above questions, thus revealing how the bike-sharing service serves its users and to drive informed decision-making accordingly.
@@ -44,13 +44,13 @@ In this project, Google Sheets is the tool used to store raw data, conduct EDA a
 ![Figure 5: Q3 - Bike Rental vs. Age Groups](/figures/Q3%20-%20Bike%20Rental%20vs.%20Age%20Groups.png)
 *(Figure 5: Q3 - Bike Rental vs. Age Groups)*
 
-# 4. User Type & Usage Patterns
+### 4. User Type & Usage Patterns
 <p>For the fourth question, a pivot table summarizes the number of bike rentals per weekday by one-time users and subscribers. As the stacked stepped area chart in Figure 6 suggests, most users are subscribers who primarily use the service during the workday, with 13,528 of 16,843 rentals. On the other hand, one-time users tend to rent bikes for the weekend. Thus, the business strategy would greatly retain subscribers and try to attract one-time users on the weekends.</p>    
 
 ![Figure 6: Q4 - User Type vs. Weekday](/figures/Q4%20-%20User%20Type%20vs.%20Weekday.png)
 *(Figure 6: Q4 - User Type vs. Weekday)*
 
-# 5. Age vs. Trip Duration
+### 5. Age vs. Trip Duration
 <p>Regarding the last question, descriptive statistics, in which the average trip duration is 9 minutes (shown in Figure 7), are used to generate a general intuitive understanding of the whole 16,843 data records and help effectively eliminate outliers. As the scatter plot in Figure 7 suggests, the 16,843 pairs of data indicate no significant relationship between trip duration and user age. Thus, it seems that user age does not impact the average bike trip duration. For further questions, more data is needed to conduct a detailed analysis.</p>  
 
 ![Figure 7: Q5 - User Age vs. Trip Duration](/figures/Q5%20-%20User%20Age%20vs.%20Trip%20Duration.png)
