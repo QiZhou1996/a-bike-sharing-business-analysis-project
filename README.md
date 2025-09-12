@@ -25,7 +25,7 @@ In this project, Google Sheets is the tool used to store raw data, conduct EDA a
 ![Figure 2: Cleanup on Backup Data](/figures/Cleanup%20on%20Backup%20Data.png)
 *(Figure 2: Cleanup on Backup Data)*
 
-## Key Findings and Visualizations:
+## Findings and Visualizations:
 ### 1. Most Popular Pickup Locations
 <p>To answer the first question, a pivot table is created to summarize the use frequency of each starting station. After sorting in descending order, Grove St PATH station is the most popular starting station among the 50 stations, with 2,115 out of 16,843 data records (note that the average is 337). Moreover, as the bar chart in Figure 3 suggests, Exchange Place, Sip Ave, and Hamilton Park stations are quite highly used. Thus, a possible business strategy is supplying these stations with sufficient bikes promptly to meet the large demand.</p>  
 
