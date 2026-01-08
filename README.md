@@ -9,6 +9,4 @@ On the other hand, the subsequent comparative analysis (**Bike-sharing Business 
 
 More importantly, this is a record of my professional journey.
 
----
-
-Notes: More files， such as Python coding, might be added later.
+*Notes: More files, such as Python coding, might be added later.*
